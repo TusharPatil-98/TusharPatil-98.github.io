@@ -27,7 +27,7 @@ html {
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-      <a href="https://tusharpatil-98.github.io/cv.html" class="w3-bar-item w3-button">Resume</a>
+      <a href="https://tusharpatil-98.github.io/pages/cv.html" class="w3-bar-item w3-button">Resume</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
   </div>
