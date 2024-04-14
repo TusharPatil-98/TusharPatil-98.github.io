@@ -1,0 +1,107 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif
+}
+
+.animation span {
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.empowering, .ai {
+    text-shadow: 2px 2px 8px #FFFFFF;
+    font-size:2vw;
+    animation: slideInLeft 1.5s ease forwards;
+}
+  
+.crafting, .tomorrow {
+    text-shadow: 2px 2px 8px #FFFFFF;
+    font-size:2vw;
+    animation: slideInRight 2s ease forwards;
+}
+
+.tomorrow{
+    text-transform: capitalize;
+    font-size:2vw;
+    font-weight: bold;
+}
+  
+.by {
+    animation: fadeIn 2.5s ease forwards;
+    font-size:2vw;
+    text-shadow: 2px 2px 8px #FFFFFF;
+}
+  
+.transforming {
+    animation: slideInBottom 3s ease forwards;
+    font-size:2vw;
+    text-shadow: 2px 2px 8px #FFFFFF;
+}
+  
+.empowering, .crafting {
+    text-transform: capitalize;
+    text-shadow: 2px 2px 8px #FFFFFF;
+    font-weight: bold;
+}
+  
+.tomorrow, .transforming {
+    text-transform: capitalize;
+}
+    
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+html {
+  scroll-behavior: smooth;
+}
